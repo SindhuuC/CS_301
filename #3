@@ -1,0 +1,14 @@
+//#3 while loop for temprature conversion 
+#include<stdio.h>
+int main() 
+{
+    int f,c,upper;
+    f=0;
+    upper=300;
+     while(f<=upper)
+    {
+    c= 5* (f-32)/9;
+    printf("The temperature in Celsius for %d is %d \n",f,c);
+    f=f+20;
+    }
+}
